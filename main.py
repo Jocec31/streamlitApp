@@ -17,3 +17,4 @@ st.write('''Ceci est ma première application avec streamlit.
          ''')
 st.write(df) # fait apparaître le tableau à partir du df
 st.line_chart(df) # fait apparaître un graph ligne
+st.area_chart(df) # graph de zones
