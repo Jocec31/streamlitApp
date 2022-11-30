@@ -18,3 +18,7 @@ st.write('''Ceci est ma première application avec streamlit.
 st.write(df) # fait apparaître le tableau à partir du df
 st.line_chart(df) # fait apparaître un graph ligne
 st.area_chart(df) # graph de zones
+
+# création d'un slide conversion celsius en Fahrenheit
+my_slider = st.slider('Celsius')
+st.write(my_slider, 'in Farenheit is ', my_slider*9/5+32)
