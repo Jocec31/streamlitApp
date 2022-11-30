@@ -15,4 +15,5 @@ st.subheader('Présentation d\'un dashboard')
 st.write('''Ceci est ma première application avec streamlit.
          Profitez du moment
          ''')
-st.write(df)
+st.write(df) # fait apparaître le tableau à partir du df
+st.line_chart(df) # fait apparaître un graph ligne
